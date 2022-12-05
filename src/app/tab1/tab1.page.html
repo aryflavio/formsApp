@@ -1,26 +1,29 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color = "dark">
-    <ion-title>
-      Forms
-    </ion-title>
+  <ion-toolbar color="dark">
+    <ion-title> Forms </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
-  <div class ="flex-center">
-
-    <ion-button color ="dark" routerLink="/login">
-        Fazer Login
-    </ion-button>
-
-<<<<<<< HEAD
-
-=======
-    <ion-button color ="dark" routerLink="/registro">
-      Fazer Registro
-  </ion-button>
-
-  </div>
->>>>>>> master
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" routerLink="/login"> Fazer Login </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" routerLink="/registro">
+          Fazer Registro
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" routerLink="/produto">
+          Cadastrar Produto
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
