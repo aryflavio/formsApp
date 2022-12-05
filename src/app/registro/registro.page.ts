@@ -59,7 +59,11 @@ export class RegistroPage implements OnInit {
       this.usuario.email = this.formCadastro.value.email;
       this.usuario.senha = this.formCadastro.value.senha;
       await this.storageService.set(this.usuario.email, this.usuario);
+<<<<<<< HEAD
       this.route.navigateByUrl('tabs/tab2');
+=======
+      this.route.navigateByUrl('/home');
+>>>>>>> master
     } else {
       alert('Formulário Inválido!');
     }
